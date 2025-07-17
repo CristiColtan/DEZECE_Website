@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 
 import { FaLocationDot } from "react-icons/fa6";
-import { IoIosMailUnread } from "react-icons/io";
 import { MdAddIcCall, MdEmail } from "react-icons/md";
 
 import Footer2 from "../components/Footer2.jsx";

@@ -14,8 +14,6 @@ import I5 from "../assets/rulouri-ext-edit.jpg";
 
 import I6 from "../assets/zipscreen.jpeg";
 
-import I7 from "../assets/copertina1.jpg";
-
 const PersonalizedSol = () => {
   return (
     <div>

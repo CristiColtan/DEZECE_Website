@@ -1,10 +1,7 @@
 import React from "react";
 import clsx from "clsx";
-import { useSelector, useDispatch } from "react-redux";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-
-import Logo from "../assets/logo_final.png";
-import { IoIosMenu } from "react-icons/io";
+import { useDispatch } from "react-redux";
+import { Link, useLocation } from "react-router-dom";
 
 import { setOpenSidebar } from "../redux/user/userSlice.js";
 
@@ -33,7 +30,6 @@ const linkData = [
 
 const Sidebar = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const location = useLocation();
 
   const path = location.pathname.split("/")[1];

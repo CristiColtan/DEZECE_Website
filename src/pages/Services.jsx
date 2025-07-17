@@ -27,7 +27,11 @@ const Services = () => {
         <div className="md:mx-20 pt-6 mx-10">
           <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9">
             <div className="py-2 flex items-center justify-center">
-              <img src={I1} className=" max-w-[450px] overflow-hidden"></img>
+              <img
+                src={I1}
+                alt="Imagine1 Services"
+                className=" max-w-[450px] overflow-hidden"
+              ></img>
             </div>
 
             <div className="">
@@ -199,7 +203,11 @@ const Services = () => {
       <br></br>
       <br></br>
       <div className="bg-white -mt-5 ">
-        <img className="z-[-1] overflow-hidden" src={I2}></img>
+        <img
+          className="z-[-1] overflow-hidden"
+          src={I2}
+          alt="Imagine2 Services"
+        ></img>
         <Hero3 className=""></Hero3>
       </div>
       <PersonalizedSol />
@@ -239,7 +247,11 @@ const Services = () => {
               <br></br>
             </div>
             <div className="py-2 flex items-center justify-center">
-              <img src={I8} className=" overflow-hidden"></img>
+              <img
+                src={I8}
+                alt="Imagine3 Services"
+                className=" overflow-hidden"
+              ></img>
             </div>
           </div>
         </div>

@@ -2,11 +2,9 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Navbar2 from "../components/Navbar2";
 import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
 
-import B1 from "../assets/bckgr1.jpg";
 import B2 from "../assets/WinterGarden-2.jpg";
 import B3 from "../assets/WinterGarden-3.jpg";
 import B4 from "../assets/WinterGarden-1.jpg";
@@ -72,7 +70,7 @@ export default function Guest() {
       <br></br>
       <AboutUs2 />
       <div>
-        <img className="z-[-1] md:absolute" src={B2}></img>
+        <img className="z-[-1] md:absolute" src={B2} alt="Imagine1 Guest"></img>
         <Hero2 />
       </div>
       <br></br>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, Navigate, useLocation, Link } from "react-router-dom";
+import { useNavigate, useLocation, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import clsx from "clsx";
 
@@ -7,7 +7,6 @@ import "../styles/Navbar.css";
 
 import { setOpenSidebar } from "../redux/user/userSlice.js";
 
-import { FaSearch } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
 import { MdClose } from "react-icons/md";
 
@@ -51,18 +50,18 @@ const Navbar2 = () => {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  const handleScroll = () => {
-    const currentScrollY = window.scrollY;
-    // Ascunde navbar-ul dacă scrollezi în jos și ai trecut de 50px
-    if (currentScrollY > lastScrollY && currentScrollY > 50) {
-      setShowNavbar(false);
-    } else if (currentScrollY < lastScrollY) {
-      setShowNavbar(true);
-    }
-    setLastScrollY(currentScrollY);
-  };
-
   useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      // Ascunde navbar-ul dacă scrollezi în jos și ai trecut de 50px
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        setShowNavbar(false);
+      } else if (currentScrollY < lastScrollY) {
+        setShowNavbar(true);
+      }
+      setLastScrollY(currentScrollY);
+    };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
@@ -134,6 +133,7 @@ const Navbar2 = () => {
             src={Logo}
             className="h-[120px] w-[120px] bg-transparent 
                                  fixed -top-7 left-56 hidden xl:block"
+            alt="Imagine1 Navbar2"
             onClick={() => navigate("/")}
           ></img>
         </p>

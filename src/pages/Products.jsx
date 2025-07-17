@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import I1 from "../assets/WG-1.jpg";
 import I2 from "../assets/Glisanta.jpg";
 import I3 from "../assets/Imagine9-edit.jpg";
 import I4 from "../assets/Imagine6.jpg";
@@ -15,7 +14,6 @@ import Rulou from "../assets/p1.jpg";
 import ZipScreen from "../assets/zipscreen1.jpg";
 
 import { GiClick } from "react-icons/gi";
-import { IoCall } from "react-icons/io5";
 import Footer2 from "../components/Footer2";
 
 const Products = () => {
@@ -26,7 +24,11 @@ const Products = () => {
         <div className="md:mx-28 pt-6 mx-10">
           <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9">
             <div className="py-2 flex items-center justify-center">
-              <img src={I6} className=" max-w-[500px] overflow-hidden"></img>
+              <img
+                src={I6}
+                alt="Imagine1 Products"
+                className=" max-w-[500px] overflow-hidden"
+              ></img>
             </div>
 
             <div className="">
@@ -281,7 +283,11 @@ const Products = () => {
               </div>
             </div>
             <div className="py-2 flex items-center justify-center">
-              <img src={I5} className=" max-w-[500px] overflow-hidden"></img>
+              <img
+                src={I5}
+                alt="Imagine2 Products"
+                className=" max-w-[500px] overflow-hidden"
+              ></img>
             </div>
           </div>
         </div>
@@ -482,7 +488,11 @@ const Products = () => {
         <div className="md:mx-28 pt-6 mx-10">
           <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9">
             <div className="py-2 flex items-center justify-center">
-              <img src={Rulou} className=" max-w-[500px] overflow-hidden"></img>
+              <img
+                src={Rulou}
+                alt="Imagine Rulou Products"
+                className=" max-w-[500px] overflow-hidden"
+              ></img>
             </div>
             <div className="">
               <div className="">
@@ -567,6 +577,7 @@ const Products = () => {
             <div className="py-2 flex items-center justify-center">
               <img
                 src={ZipScreen}
+                alt="Imagine ZipScreen Products"
                 className=" max-w-[500px] overflow-hidden"
               ></img>
             </div>

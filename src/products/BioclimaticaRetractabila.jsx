@@ -29,6 +29,7 @@ const Bioclimatica = () => {
         <img
           className="z-[-1] overflow-hidden w-full md:h-[680px] object-cover"
           src={window.innerWidth >= 768 ? B4 : B3}
+          alt="Background Pergola Bioclimatica Retractabila"
         ></img>
         <HeroProduct bigText="PERGOLĂ BIOCLIMATICĂ RETRACTABILĂ"></HeroProduct>
       </div>
@@ -36,7 +37,10 @@ const Bioclimatica = () => {
       <div className="container h-full md:mx-20 px-8 md:px-0 -mt-10 md:-mt-24">
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9 gap-6">
           <div className="flex flex-col justify-center space-y-6 h-full">
-            <img src={Vv}></img>
+            <img
+              src={Vv}
+              alt="Imagine 1 Pergola Bioclimatica Retractabila"
+            ></img>
           </div>
           <div className="flex flex-col justify-center space-y-4 h-full">
             <p className="font-serif text-2xl lg:text-4xl flex">
@@ -114,6 +118,7 @@ const Bioclimatica = () => {
             <img
               src={leftimg}
               className=" w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Left Pergola Bioclimatica Retractabila"
             ></img>
           </div>
 
@@ -121,6 +126,7 @@ const Bioclimatica = () => {
             <img
               src={rightimg}
               className="w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Right Pergola Bioclimatica Retractabila"
             ></img>
           </div>
         </div>

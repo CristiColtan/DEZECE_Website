@@ -8,7 +8,6 @@ import P1_1 from "../assets/pvc1.jpg";
 import P1_2 from "../assets/pvc2.jpg";
 import P1_3 from "../assets/pvc3.jpg";
 import P1_4 from "../assets/pvc4.jpg";
-import Footer from "../components/Footer.jsx";
 
 const projects = [
   {

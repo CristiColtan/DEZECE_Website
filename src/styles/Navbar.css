@@ -1,21 +1,17 @@
 .flip-container {
     position: relative;
     display: inline-flex;
-    /* Folosim inline-flex pentru aliniere pe aceeași linie */
     perspective: 1000px;
     width: auto;
-    /* Lasă dimensiunea să se ajusteze automat */
 }
 
 .flip-front,
 .flip-back {
     display: inline-block;
     width: 100%;
-    /* Asigurăm că au aceeași dimensiune */
     backface-visibility: hidden;
     transition: transform 0.5s ease-in-out;
     white-space: nowrap;
-    /* Previne textul să treacă pe linii multiple */
 }
 
 .flip-front {

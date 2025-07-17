@@ -32,6 +32,7 @@ const InchideriGlisante = () => {
         <img
           className="z-[-1] overflow-hidden w-full md:h-[680px] object-cover"
           src={window.innerWidth >= 768 ? B3 : B4}
+          alt="Background Inchideri Glisante"
         ></img>
         <HeroProduct bigText="ÎNCHIDERI GLISANTE"></HeroProduct>
       </div>
@@ -122,6 +123,7 @@ const InchideriGlisante = () => {
             <img
               src={leftimg}
               className=" w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Left Inchideri Glisante"
             ></img>
           </div>
 
@@ -129,6 +131,7 @@ const InchideriGlisante = () => {
             <img
               src={rightimg}
               className="w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Right Inchideri Glisante"
             ></img>
           </div>
         </div>

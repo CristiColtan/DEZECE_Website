@@ -29,6 +29,7 @@ const RetractabilaPVC = () => {
         <img
           className="z-[-1] overflow-hidden w-full md:h-[680px] object-cover"
           src={window.innerWidth >= 768 ? B4 : B3}
+          alt="Background Pergola Retractabila PVC"
         ></img>
         <HeroProduct bigText="PERGOLĂ RETRACTABILĂ PVC"></HeroProduct>
       </div>
@@ -36,7 +37,10 @@ const RetractabilaPVC = () => {
       <div className="container h-full md:mx-20 px-8 md:px-0 -mt-10 md:-mt-24">
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9 gap-6">
           <div className="flex flex-col justify-center space-y-6 h-full">
-            <img src={window.innerWidth >= 768 ? Vv : B4}></img>
+            <img
+              src={window.innerWidth >= 768 ? Vv : B4}
+              alt="Imagine 1 Pergola Retractabila PVC"
+            ></img>
           </div>
           <div className="flex flex-col justify-center space-y-4 h-full">
             <p className="font-serif text-2xl lg:text-4xl flex">
@@ -113,6 +117,7 @@ const RetractabilaPVC = () => {
             <img
               src={leftimg}
               className=" w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Left Pergola Retractabila PVC"
             ></img>
           </div>
 
@@ -120,6 +125,7 @@ const RetractabilaPVC = () => {
             <img
               src={rightimg}
               className="w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Right Pergola Retractabila PVC"
             ></img>
           </div>
         </div>

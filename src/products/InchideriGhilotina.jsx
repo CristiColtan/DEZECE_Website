@@ -6,7 +6,6 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import HeroProduct from "../components/HeroProduct.jsx";
 import Footer2 from "../components/Footer2.jsx";
 import SystemCard from "../imports/SystemCard.jsx";
-import B3 from "../assets/WinterGarden-3.jpg";
 import B4 from "../assets/Glisanta.jpg";
 import Vv from "../assets/Vidio.mp4";
 
@@ -29,6 +28,7 @@ const InchideriGhilotina = () => {
         <img
           className="z-[-1] overflow-hidden w-full md:h-[680px] object-cover"
           src={window.innerWidth >= 768 ? B4 : B4}
+          alt="Background Inchideri Ghilotina"
         ></img>
         <HeroProduct bigText="ÎNCHIDERI TIP GHILOTINĂ"></HeroProduct>
       </div>
@@ -115,6 +115,7 @@ const InchideriGhilotina = () => {
             <img
               src={leftimg}
               className=" w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Left Inchideri Ghilotina"
             ></img>
           </div>
 
@@ -122,6 +123,7 @@ const InchideriGhilotina = () => {
             <img
               src={rightimg}
               className="w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Right Inchideri Ghilotina"
             ></img>
           </div>
         </div>
@@ -137,13 +139,13 @@ const InchideriGhilotina = () => {
           </p>
           <div className="max-w-[300px] mx-auto">
             <img
-              src={Brosura} // <- înlocuiește cu imaginea ta
+              src={Brosura}
               alt="Brochure Cover"
               className="rounded-lg shadow-md mb-6 md:h-[300px] h-[200px]"
             />
 
             <a
-              href="/brochure.pdf" // <- înlocuiește cu calea reală spre PDF
+              href="/brochure.pdf"
               download
               className="bg-yellow-500 text-white py-2 font-bold rounded-md 
               hover:bg-yellow-600/90 transition-all w-full block text-center"

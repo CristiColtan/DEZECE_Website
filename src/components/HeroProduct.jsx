@@ -1,11 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-
-import { HiArrowNarrowRight } from "react-icons/hi";
 
 const HeroProduct = ({ bigText }) => {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className=" h-full z-49 pl-8 -mt-24 md:-mt-8 w-full">

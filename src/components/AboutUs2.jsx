@@ -15,6 +15,7 @@ const AboutUs2 = () => {
           <div className="py-2">
             <img
               src={WG2}
+              alt="Imagine1 AboutUs"
               className="md:translate-x-10  md:block md:items-start flex  justify-center"
             ></img>
             <div className="w-full bg-gradient-to-r from-yellow-500 to-slate-400  h-3 mt-3 hidden md:block"></div>

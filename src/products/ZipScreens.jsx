@@ -8,7 +8,6 @@ import Footer2 from "../components/Footer2.jsx";
 import SystemCard from "../imports/SystemCard.jsx";
 import B3 from "../assets/zipscreen1.jpg";
 import B4 from "../assets/zipscreen2.jpg";
-import Vv from "../assets/zipscreen.jpeg";
 
 import Brosura from "../assets/brosura-retractabila-pvc.png";
 
@@ -29,6 +28,7 @@ const ZipScreens = () => {
         <img
           className="z-[-1] overflow-hidden w-full md:h-[680px] object-cover"
           src={window.innerWidth >= 768 ? B3 : B3}
+          alt="Background ZipScreens"
         ></img>
         <HeroProduct bigText="ZIPSCREENS"></HeroProduct>
       </div>
@@ -36,7 +36,10 @@ const ZipScreens = () => {
       <div className="container h-full md:mx-20 px-8 md:px-0 -mt-10 md:-mt-14">
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9 gap-6">
           <div className="flex flex-col justify-center space-y-6 h-full">
-            <img src={window.innerWidth >= 768 ? B4 : B4}></img>
+            <img
+              src={window.innerWidth >= 768 ? B4 : B4}
+              alt="Image2 ZipScreens"
+            ></img>
           </div>
           <div className="flex flex-col justify-center space-y-4 h-full">
             <p className="font-serif text-2xl lg:text-4xl flex">
@@ -51,7 +54,7 @@ const ZipScreens = () => {
               Acționarea electrică, integrarea discretă și varietatea de culori
               le fac alegerea preferată în proiectele arhitecturale moderne.
             </p>
-            <p className="font-serif text-2xl lg:text-4xl flex justify-center items-center">
+            <p className="font-serif text-2xl lg:text-4xl">
               Dorești o ofertă pentru ZipScreens?
             </p>
             <div className="">
@@ -113,6 +116,7 @@ const ZipScreens = () => {
             <img
               src={leftimg}
               className=" w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Left ZipScreen"
             ></img>
           </div>
 
@@ -120,6 +124,7 @@ const ZipScreens = () => {
             <img
               src={rightimg}
               className="w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Right ZipScreen"
             ></img>
           </div>
         </div>

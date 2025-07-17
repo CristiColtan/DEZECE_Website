@@ -6,7 +6,6 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import HeroProduct from "../components/HeroProduct.jsx";
 import Footer2 from "../components/Footer2.jsx";
 import SystemCard from "../imports/SystemCard.jsx";
-import B3 from "../assets/p1.jpg";
 import B4 from "../assets/rulouri-ext-edit.jpg";
 import Vv from "../assets/rulouri-exterioare1.jpg";
 
@@ -28,6 +27,7 @@ const RulouriExterioare = () => {
         <img
           className="z-[-1] overflow-hidden w-full md:h-[680px] object-cover"
           src={window.innerWidth >= 768 ? B4 : B4}
+          alt="Background Rulouri Exterioare"
         ></img>
         <HeroProduct bigText="RULOURI EXTERIOARE"></HeroProduct>
       </div>
@@ -35,7 +35,10 @@ const RulouriExterioare = () => {
       <div className="container h-full md:mx-20 px-8 md:px-0 -mt-10 md:-mt-24">
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9 gap-6">
           <div className="flex flex-col justify-center space-y-6 h-full">
-            <img src={window.innerWidth >= 768 ? Vv : Vv}></img>
+            <img
+              src={window.innerWidth >= 768 ? Vv : Vv}
+              alt="Imagine 1 Rulouri Exterioare"
+            ></img>
           </div>
           <div className="flex flex-col justify-center space-y-4 h-full">
             <p className="font-serif text-2xl lg:text-4xl flex">
@@ -112,6 +115,7 @@ const RulouriExterioare = () => {
             <img
               src={leftimg}
               className=" w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Left Rulouri Exterioare"
             ></img>
           </div>
 
@@ -119,6 +123,7 @@ const RulouriExterioare = () => {
             <img
               src={rightimg}
               className="w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Right Rulouri Exterioare"
             ></img>
           </div>
         </div>

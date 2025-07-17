@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate, Navigate, useLocation, Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import clsx from "clsx";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMailUnread } from "react-icons/io";
@@ -10,13 +8,8 @@ import { CiLink } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
-import { MdCopyright } from "react-icons/md";
-
-import Logo from "../assets/logo_final.png";
 
 const Footer2 = () => {
-  const { sidebarOpen } = useSelector((state) => state.user);
-  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   return (
@@ -30,6 +23,7 @@ const Footer2 = () => {
               </h1>
               <div className="">
                 <iframe
+                  title="Harta Footer2"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.854168442359!2d25.976122408525132!3d44.436153545998074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b200e0aeff82e9%3A0x57ac84c4df0f9dc3!2sBulevardul%20Iuliu%20Maniu%20585%2C%20Bucure%C8%99ti%20061087!5e0!3m2!1sen!2sro!4v1739991044082!5m2!1sen!2sro"
                   width="400"
                   height="300"

@@ -9,7 +9,6 @@ import B3 from "../assets/pivot2.jpg";
 
 import I3 from "../assets/Glisanta.jpg";
 import I2 from "../assets/WG-1.jpg";
-import I4 from "../assets/Pivot.jpg";
 
 import Brosura from "../assets/brosura-winter-garden.png";
 
@@ -31,6 +30,7 @@ const InchideriPivot = () => {
         <img
           className="z-[-1] overflow-hidden w-full md:h-[680px] object-cover"
           src={window.innerWidth >= 768 ? B3 : B3}
+          alt="Background Inchideri Pivotante"
         ></img>
         <HeroProduct bigText="ÎNCHIDERI PIVOTANTE"></HeroProduct>
       </div>
@@ -123,6 +123,7 @@ const InchideriPivot = () => {
             <img
               src={leftimg}
               className=" w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Left Inchideri Pivotante"
             ></img>
           </div>
 
@@ -130,6 +131,7 @@ const InchideriPivot = () => {
             <img
               src={rightimg}
               className="w-full md:h-[400px] object-cover max-w-[600px] overflow-hidden"
+              alt="Right Inchideri Pivotante"
             ></img>
           </div>
         </div>

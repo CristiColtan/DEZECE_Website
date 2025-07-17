@@ -4,8 +4,6 @@ import { Fragment } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Transition } from "@headlessui/react";
 
-import { IoMdClose } from "react-icons/io";
-
 import { setOpenSidebar } from "../redux/user/userSlice.js";
 
 import Sidebar from "./Sidebar.jsx";
