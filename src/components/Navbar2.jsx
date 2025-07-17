@@ -117,7 +117,7 @@ const Navbar2 = () => {
         showNavbar ? "translate-y-0" : "-translate-y-full"
       )}
     >
-      <div className="flex items-center justify-between w-full pr-5">
+      <div className="flex items-center justify-between  w-full">
         <p
           className="flex flex-row gap-0 md:gap-4 text-3xl md:text-4xl lg:text-5xl
                         transform px-6 shadow-outer text-shadoww pr-16
