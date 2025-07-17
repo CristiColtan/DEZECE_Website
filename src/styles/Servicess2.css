@@ -1,0 +1,44 @@
+.flip-container2 {
+    position: relative;
+    display: inline-flex;
+    /* Folosim inline-flex pentru aliniere pe aceeași linie */
+    perspective: 1000px;
+    width: auto;
+    /* Lasă dimensiunea să se ajusteze automat */
+}
+
+.flip-front2,
+.flip-back2 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Aliniere pe verticală */
+    align-items: center;
+    /* Aliniere pe orizontală */
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+    /* Asigurăm alinierea textului */
+}
+
+.flip-front2 {
+    transform: rotateY(0deg);
+}
+
+.flip-back2 {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flip-container:hover .flip-front2 {
+    transform: rotateY(-180deg);
+}
+
+.flip-container:hover .flip-back2 {
+    transform: rotateY(0deg);
+}
