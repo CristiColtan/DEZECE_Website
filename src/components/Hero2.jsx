@@ -46,6 +46,7 @@ const Hero2 = () => {
         <br></br>
         <div className="flex items-center justify-start ml-10">
           <button
+            onClick={() => navigate("/produse")}
             className="bg-yellow-500 rounded   py-3 px-9 
             text-center flex hover:bg-yellow-600/90 duration-300
              font-serif text-xl lg:pr-52 text-gray-200/95"

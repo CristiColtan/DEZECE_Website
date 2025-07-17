@@ -22,7 +22,7 @@ export default function Portofoliu() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div>
+    <div className="bg-gray-100">
       <div className="container mx-auto px-4 py-12 mt-20">
         <h1 className="text-2xl md:text-4xl font-serif text-center md:mb-10 mb-5 uppercase">
           Portofoliu Clienți
@@ -40,7 +40,7 @@ export default function Portofoliu() {
                 alt={project.title}
                 className="w-full h-60 object-cover"
               />
-              <div className="p-4">
+              <div className="p-4 ">
                 <h2 className="font-semibold text-xl mb-1">{project.title}</h2>
                 <span className="text-sm text-yellow-600 font-medium">
                   VEZI PROIECT &raquo;

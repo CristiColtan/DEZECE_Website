@@ -113,7 +113,7 @@ const Navbar2 = () => {
   return (
     <div
       className={clsx(
-        "fixed flex justify-between items-center bg-white border-b-2 border-yellow-600 px-4 py-3 2xl:py-4 w-full z-10 top-0 transition-all duration-300 ease-in-out",
+        "fixed flex justify-between items-center bg-white border-b-2 border-yellow-600 px-4 py-3 2xl:py-4 w-screen z-10 top-0 transition-all duration-300 ease-in-out",
         showNavbar ? "translate-y-0" : "-translate-y-full"
       )}
     >

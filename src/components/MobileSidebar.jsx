@@ -38,7 +38,7 @@ const MobileSidebar = () => {
             )}
             onClick={() => closeSidebar()}
           >
-            <div className="bg-white sm:w-2/4 w-3/4 h-full py-5">
+            <div className="bg-white w-full h-full py-5">
               <div className="-mt-11">
                 <Sidebar></Sidebar>
               </div>
