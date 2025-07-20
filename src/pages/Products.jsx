@@ -101,6 +101,7 @@ const Products = () => {
                     </p>
 
                     <p
+                      dir="ltr"
                       className="font-thin px-4 flex justify-center 
                             items-center text-justify text-[#964b01] pb-4 md:pb-5"
                     >
@@ -117,6 +118,7 @@ const Products = () => {
                 </div>
               </div>
               <button
+                dir="ltr"
                 onClick={() => navigate("/produse/inchideri-glisante")}
                 className="block md:hidden text-sm text-white bg-yellow-500 py-2 px-4 rounded font-sans font-medium hover:bg-yellow-600 transition duration-200 mt-2"
               >
@@ -162,6 +164,7 @@ const Products = () => {
                     </p>
 
                     <p
+                      dir="ltr"
                       className="font-thin px-4 flex justify-center 
                             items-center text-justify text-[#964b01] pb-4 md:pb-5"
                     >
@@ -178,6 +181,7 @@ const Products = () => {
                 </div>
               </div>
               <button
+                dir="ltr"
                 onClick={() => navigate("/produse/inchideri-ghilotina")}
                 className="block md:hidden text-sm text-white bg-yellow-500 py-2 px-4 rounded font-sans font-medium hover:bg-yellow-600 transition duration-200 mt-2"
               >
