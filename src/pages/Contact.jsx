@@ -56,7 +56,7 @@ export default function ContactForm() {
                 <span className="uppercase text-sm text-yellow-600 font-semibold">
                   Telefon:
                 </span>
-                <p className="text-black mt-1">+40 726 240 411</p>
+                <p className="text-black mt-1">+40 731 321 449</p>
               </div>
             </div>
             <div className="flex-1 px-6 py-6">

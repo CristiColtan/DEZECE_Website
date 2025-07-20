@@ -18,7 +18,7 @@ const Hero3 = () => {
             <br></br>
             <div className="flex">
               <button
-                onClick={() => navigate("/produse/pergola-bioclimatica")}
+                onClick={() => navigate("/produse/bioclimatica")}
                 className="bg-yellow-500 py-2 px-3 flex items-center justify-center
                  hover:bg-yellow-600/90 duration-300 group relative text-right
             -translate-y-96 translate-x-[46.5rem] font-serif lg:text-3xl lg:pr-52 text-gray-200/95"
@@ -42,7 +42,7 @@ const Hero3 = () => {
         <br></br>
         <div className="flex items-center justify-start ml-10">
           <button
-            onClick={() => navigate("/produse/pergola-bioclimatica")}
+            onClick={() => navigate("/produse/bioclimatica")}
             className="bg-yellow-500 rounded   py-3 px-9 
             text-center flex hover:bg-yellow-600/90 duration-300
              font-serif text-xl lg:pr-52 text-gray-200/95"
