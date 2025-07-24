@@ -3,9 +3,11 @@ import { useState, useEffect } from "react";
 
 import Modal from "../components/Modal.jsx";
 import Footer2 from "../components/Footer2.jsx";
+import Vv from "../assets/Vidio.mp4";
 import {
   project1,
   project2,
+  project3,
   project4,
   project5,
   project6,
@@ -39,6 +41,11 @@ const projects = [
     images: project2,
   },
   {
+    id: 3,
+    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 1",
+    images: [project3, Vv],
+  },
+  {
     id: 4,
     title: "RULOURI EXTERIOARE 1",
     images: project4,
@@ -50,22 +57,22 @@ const projects = [
   },
   {
     id: 6,
-    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 1",
+    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 2",
     images: project6,
   },
   {
     id: 7,
-    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 2",
+    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 3",
     images: project7,
   },
   {
     id: 8,
-    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 3",
+    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 4",
     images: project8,
   },
   {
     id: 9,
-    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 4",
+    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 5",
     images: project9,
   },
   {
@@ -120,12 +127,12 @@ const projects = [
   },
   {
     id: 20,
-    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 5",
+    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 6",
     images: project20,
   },
   {
     id: 21,
-    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 6",
+    title: "ÎNCHIDERE STICLĂ GHILOTINĂ 7",
     images: project21,
   },
   {

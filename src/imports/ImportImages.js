@@ -8,6 +8,9 @@ export const project1 = importAll(
 export const project2 = importAll(
   require.context("../assets-portofoliu/project-2", false, /\.(jpg|png|mp4)$/)
 );
+export const project3 = importAll(
+  require.context("../assets-portofoliu/project-3", false, /\.(jpg|png|mp4)$/)
+);
 export const project4 = importAll(
   require.context("../assets-portofoliu/project-4", false, /\.(jpg|png|mp4)$/)
 );
