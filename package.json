@@ -19,9 +19,11 @@
     "react-scripts": "5.0.1",
     "redux-persist": "^6.0.0",
     "schita": "file:",
+    "serve": "^14.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "go": "serve -s build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

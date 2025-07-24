@@ -16,7 +16,7 @@ const AboutUs = () => {
           {""}Despre Noi
         </p>
 
-        <div className="container">
+        <div className="w-full px-4 md:px-20">
           <div className="grid md:grid-cols-2 grid-cols-1 md:gap-9">
             <div className="bg-yellow-500">
               <video
@@ -52,25 +52,23 @@ const AboutUs = () => {
           </div>
         </div>
         <br></br>
-        <div className="container md:mt-10 ">
-          {/*bg-[#FFFBEC] */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
-            <div className="bg-slate-400/30 justify-center items-center flex flex-col py-12">
-              <p className="font-serif text-4xl md:text-5xl pb-5">12+</p>
-              <p className="font-serif md:text-lg">ani de experiență</p>
-            </div>
-            <div className="bg-slate-400/30 justify-center items-center flex flex-col py-12">
-              <p className="font-serif text-4xl md:text-5xl pb-5">800+</p>
-              <p className="font-serif md:text-lg">proiecte completate</p>
-            </div>
-            <div className="bg-slate-400/30 justify-center items-center flex flex-col py-12">
-              <p className="font-serif text-4xl md:text-5xl pb-5">750+</p>
-              <p className="font-serif md:text-lg">clienți mulțumiți</p>
-            </div>
-            <div className="hidden bg-slate-400/30 justify-center items-center sm:flex flex-col py-12">
-              <p className="font-serif text-4xl md:text-5xl pb-5">10+</p>
-              <p className="font-serif md:text-lg">parteneriate solide</p>
-            </div>
+        {/*bg-[#FFFBEC] */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 mt-10">
+          <div className="bg-slate-400/30 justify-center items-center flex flex-col py-12">
+            <p className="font-serif text-4xl md:text-5xl pb-5">12+</p>
+            <p className="font-serif md:text-lg">ani de experiență</p>
+          </div>
+          <div className="bg-slate-400/30 justify-center items-center flex flex-col py-12">
+            <p className="font-serif text-4xl md:text-5xl pb-5">800+</p>
+            <p className="font-serif md:text-lg">proiecte completate</p>
+          </div>
+          <div className="bg-slate-400/30 justify-center items-center flex flex-col py-12">
+            <p className="font-serif text-4xl md:text-5xl pb-5">750+</p>
+            <p className="font-serif md:text-lg">clienți mulțumiți</p>
+          </div>
+          <div className="hidden bg-slate-400/30 justify-center items-center sm:flex flex-col py-12">
+            <p className="font-serif text-4xl md:text-5xl pb-5">10+</p>
+            <p className="font-serif md:text-lg">parteneriate solide</p>
           </div>
         </div>
       </div>
