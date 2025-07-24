@@ -53,7 +53,7 @@ export default function Modal({ project, onClose }) {
             <FaChevronRight />
           </button>
 
-          <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-sm z-20">
+          <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-2xl z-20">
             {index + 1} / {total}
           </div>
         </div>
